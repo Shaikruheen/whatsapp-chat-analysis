@@ -90,7 +90,7 @@ Before you begin, ensure you have the following installed on your system:
    Open your terminal and clone the repository using the following command:
 
    ```bash
-   git clone https://github.com/hiteshmahto/Whatsapp-Chat-Analyzer.git
+   git clone https://github.com/Shaikruheen/Whatsapp-Chat-Analyzer.git
    ```
 
 2. **Navigate to the Project Directory**
