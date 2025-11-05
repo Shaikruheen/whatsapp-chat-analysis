@@ -5,7 +5,6 @@ import seaborn as sns
 
 # Set the page layout
 st.set_page_config(page_title="WhatsApp Chat Analyzer", page_icon=":speech_balloon:")
-
 st.title(":green[WhatsApp] Chat Analyzer 📊")
 st.sidebar.title(":green[Chat] Insights Dashboard 📊")
 
@@ -182,4 +181,5 @@ if uploaded_file is not None:
             ax.axis('equal')
             helper.style_plot(ax, fig)
             ax.legend(sentiment_count.keys(),frameon=False, labelcolor='white')
+
             st.pyplot(fig)
